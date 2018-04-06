@@ -10,6 +10,9 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  We can add the modified files to the staging area and compare the difference between the latest commit and the staging area to make sure the difference consists of only 1 logical change.
+  If not, we can reset the staging area and add only the modified file(s) that contain only 1 logical change before we commit it to the repository.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
