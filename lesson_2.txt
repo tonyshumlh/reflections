@@ -15,8 +15,12 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+  It helps us understand the developments and the reachability among different branches
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+  It allows to merge the development in the 2 branches which enhance collaboration between developers. The graphical representation of merge in the diagram shows the change in reachability of the commits.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
