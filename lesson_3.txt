@@ -1,29 +1,30 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    We can use it when we have to collaborate the work with others
+  We can use it when we have to collaborate the work with others
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+  We may have development in the local repository, which automatic pull from remote repository may overwrite the development.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+  Fork is to copy the repository from GitHub to GitHub while clone is to copy the repository from GitHub/local computer to local computer.It is usually being used when there are updates on the source repository or for backup.
+  Branch is to create a different version, which is used when a developer has his/her own developments.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+  It would be easier to compare the latest development in local with the last known state of remote, that in remote with the last known state, which I think may help the merge
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+  Multiple versions would be created with detailed descriptions on changes and time points, while there would be regular manual merge of different versions. It would also limit the number of collaborations since it is hard to keep the consistency between the versions of each developer.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+  When the changes to be made have different directions in development from the master, or the changes are experimental. It ensures that the master should be a version that always works, while trial or side development can be in the branches
